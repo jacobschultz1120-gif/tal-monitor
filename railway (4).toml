@@ -1,0 +1,7 @@
+[build]
+builder = "nixpacks"
+
+[deploy]
+startCommand = "python tal_monitor.py"
+restartPolicyType = "always"
+restartPolicyMaxRetries = 10
